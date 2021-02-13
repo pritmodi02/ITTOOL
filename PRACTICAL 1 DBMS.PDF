@@ -1,0 +1,56 @@
+                                                   PRACTICAL 1
+Practical 1: Study of Data Definition Language Statement
+A)  Write the query for the following 
+1) Create the following tables and include the necessary constraints NOT NULL, DEFAULT, CHECK, PRIMARY KEY, UNIQUE.
+ a) Student (sid, sname, gender, dob, remark,marks, class, email)
+ 
+b) Course (cid, cname, credits)
+ 
+2) Alter the structure of the Course table
+a) Modify datatype of cname.
+ 
+b) Add a column coursehours with minimum course hours greater than 45.
+ 
+c) Add a column cdesc
+ 
+3) Alter the structure of Student Table
+a) Add column age with minimum age as 17.
+ 
+b) Delete the column dob
+ 
+c) Add a column phoneno.
+ 
+d) Rename phoneno to contactno
+ 
+4) Rename Student table as Student_details.
+ 
+5) Describe the structure of both the tables.
+Student_detail Table
+ 
+Course Table
+ 
+6) Drop the table student_details and Course.
+ 
+B) 1. Create a table EMPLOYEE with following attributes and specific data types and constraints required.
+(Emp_no, E_name, E_address, E_ph_no, Dept_no, Dept_name,Job_id , Salary)
+ 
+2. Add a new column HIREDATE to the existing relation.
+ 
+3. Change the datatype of JOB_ID from char to varchar2. 
+ 
+4. Change the name of column/field Emp_no to E_no.
+ 
+ 5. Modify the column width of the job field of emp table.
+ 
+C) Create the following tables with specified attributes and constraints Department Table: Department_Id varchar2(20) primarykey, Department_Name varchar2(25) with required data. Instructor Table:
+ 
+ Instructor_id varchar2(20) primary key, Department_Id varchar2(20) Foreign key, Last_Name varchar2(25), First_Name varchar2(200) must have value, Telephone varchar2(20) must be unique, gender char(1) must be either ‘F’or ‘M’,city varchar(10) default value must be ‘MUMBAI’.
+ 
+D) Create the following described below: 
+ 
+ 
+ 
+ 
+
+
+
